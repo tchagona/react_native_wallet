@@ -110,11 +110,12 @@ export const styles = StyleSheet.create({
     },
     balanceStatItem: {
         flex: 1,
-        alignItems: "center",
+        alignItems: "flex-start",
     },
     statDivider: {
         borderRightWidth: 1,
         borderColor: COLORS.border,
+
     },
     balanceStatLabel: {
         fontSize: 14,
@@ -122,7 +123,7 @@ export const styles = StyleSheet.create({
         marginBottom: 4,
     },
     balanceStatAmount: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: "600",
     },
     sectionTitle: {
